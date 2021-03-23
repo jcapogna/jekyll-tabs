@@ -5,13 +5,13 @@ require 'jekyll-tabs/version'
 Gem::Specification.new do |spec|
 
   spec.name          = 'jekyll-tabs'
-  spec.summary       = 'A Jekyll plugin to add tabs'
+  spec.summary       = 'A Jekyll plugin to add tabs (Github Pages)'
   spec.description   = 'Generate a tabbed interface on top of markup'
   spec.version       = Jekyll::Tabs::VERSION
 
-  spec.authors       = ['Baptiste Bouchereau']
+  spec.authors       = ['Nejc Zdovc', 'Baptiste Bouchereau']
   spec.email         = ['baptiste.bouchereau@gmail.com']
-  spec.homepage      = 'https://github.com/ovski4/jekyll-tabs'
+  spec.homepage      = 'https://github.com/NejcZdovc/jekyll-tabs'
   spec.licenses      = ['MIT']
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r!^(test|spec|features)/!)  }

@@ -1,3 +1,8 @@
+Forked from https://github.com/Ovski4/jekyll-tabs.
+
+This gem just fixes template and JS bug, so that it plays nicely with Github Pages.
+
+-----
 Jekyll Tabs
 ===========
 
